@@ -1,0 +1,58 @@
+{
+  "expectations": [
+    {
+      "id": "b4d2f7fe-cfbc-4e0c-92a5-bfa5048d13ad",
+      "kwargs": {
+        "column": "timestamp"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d92154d5-c17b-44bf-980c-f528334bfd37",
+      "kwargs": {
+        "column": "Zone"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "7608af33-daf7-4816-9640-3a946528c61c",
+      "kwargs": {
+        "column": "Pressure_PSI",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "c5e17816-b63c-4f14-8e4f-ac30ca648d0b",
+      "kwargs": {
+        "column": "Temperature_C",
+        "max_value": 100.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "4d062481-1401-4e31-93b9-2b67f386c632",
+      "kwargs": {
+        "column": "Flow_Rate_LPM",
+        "min_value": 1e-06
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "dec540eb-0716-488c-bb84-798b0fb9e967",
+  "meta": {
+    "great_expectations_version": "1.19.0"
+  },
+  "name": "sensor_suite",
+  "notes": null
+}

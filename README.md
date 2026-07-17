@@ -119,6 +119,36 @@ Successfully created the Expectation Suite.
 
 ![Expectation Suite](screenshots/expectation_suite_created.png)
 
+
+
+## Data Quality Validation
+
+This project uses **Great Expectations** to enforce data quality checks before loading data into SQLite.
+
+Validation rules include:
+
+- Timestamp values must not be null
+- Pressure values must be greater than or equal to zero
+- Temperature values must be within the configured range
+- Zone values must not be null
+- Flow rate values must be positive
+
+### Great Expectations Report
+
+The generated validation report can be viewed here:
+
+[Great Expectations Data Quality Report](reports/Great_Expectations_Data_Quality_Report.pdf)
+
+### Validation Screenshot
+
+![Great Expectations Validation](screenshot/expectation_suite_created.png)
+
+
+
+
+
 ## Author
 
-Kelvin Moruri
+
+
+## Kelvin Moruri ##
