@@ -144,6 +144,15 @@ The generated validation report can be viewed here:
 ![Great Expectations Validation](screenshot/expectation_suite_created.png)
 
 
+## Project Report
+
+Full documentation:
+
+[Week 4 ETL Pipeline Report](reports/Week4_ETL_Pipeline_Report.md)
+
+## Validation Evidence
+
+![Great Expectations Suite](screenshot/expectation_suite_created.png)
 
 
 
