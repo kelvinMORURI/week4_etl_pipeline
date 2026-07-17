@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Week 4 ETL Pipeline
 
 ## Project Overview
@@ -114,10 +113,12 @@ if_exists="replace"
 
 ---
 
+## Great Expectations
+
+Successfully created the Expectation Suite.
+
+![Expectation Suite](screenshots/expectation_suite_created.png)
+
 ## Author
 
 Kelvin Moruri
-=======
-# week4_etl_pipeline
- ETL (Extract, Transform, Load) architecture, automate scripts, make code resilient using logging, and enforce data quality gates automatically using the industry-standard library Great Expectations
->>>>>>> 385b009ca5f86465a6269b82d46d1b24d2310712
